@@ -7,6 +7,6 @@ class KaraokeSong < Song
 	end
 
 	def to_s
-		return [super, " - Letra: #@letra"].join
+		return [super, "Letra: #@letra"].join(' - ')
 	end
 end
